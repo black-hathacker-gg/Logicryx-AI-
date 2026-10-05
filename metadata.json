@@ -1,0 +1,6 @@
+{
+  "name": "LX AI Automation Agency",
+  "description": "Smart automation for a more efficient tomorrow. AI automation agency built for real growth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

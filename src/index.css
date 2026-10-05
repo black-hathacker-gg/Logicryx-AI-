@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #050508;
+    color: #ffffff;
+  }
+}
+
+.font-serif-italic {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-style: italic;
+}
+
+/* Subtle glow utilities */
+.glow-purple {
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.35);
+}
+
+.glow-purple-sm {
+  box-shadow: 0 0 16px rgba(139, 92, 246, 0.25);
+}
+
+.glow-card {
+  box-shadow: 0 0 20px -5px rgba(124, 58, 237, 0.15);
+}
